@@ -10,7 +10,7 @@ Este espacio está dedicado a documentar mi progreso y a servir como biblioteca 
 
 Aquí encontrarás los scripts fundamentales para la creación de un Data Warehouse con arquitectura de medalla:
 
-* **📂 [Estructura_ETL_Ventas.sql](./Estructura_ETL_Ventas.sql)**
+* **📂 [Estructura_ETL_Ventas.sql](./Sales_ETL_Structure.sql)**
     * Implementación de un **Esquema de Estrella** (Fact & Dimensions).
     * Lógica de carga **SCD Tipo 1**: Ideal para mantener datos maestros actualizados mediante la técnica de "ignorar duplicados" (`NOT EXISTS`).
     * Definición de restricciones (Constraints) optimizadas para el motor de Fabric.
