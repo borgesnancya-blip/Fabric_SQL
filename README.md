@@ -10,13 +10,13 @@ Este espacio está dedicado a documentar mi progreso y a servir como biblioteca 
 Aquí encontrarás la organización de mi ecosistema de datos, desde el modelado relacional hasta el procesamiento masivo con Spark:
 
 ### 📂 [Ingeniería de Datos con Apache Spark]
-* **[Análisis SQL y Visualización Dinámica en Spark](./Ingenieria_Datos_Spark/analisis_ventas.ipynb)**: Cuaderno interactivo con consultas de agregación y gráficos de tendencia (Revenue/Orders).
-* **[Modelado y Particionado de Ventas con PySpark](./Ingenieria_Datos_Spark/modelado_pyspark.ipynb)**: Lógica de ingesta con esquemas definidos (`StructType`) y optimización de almacenamiento mediante `partitionBy("Year")`.
+* **[Análisis SQL y Visualización Dinámica en Spark](./Ingenieria_Datos_Spark/tabla_con_sql.ipynb)**: Cuaderno interactivo con consultas de agregación y gráficos de tendencia (Revenue/Orders).
+* **[Modelado y Particionado de Ventas con PySpark](./Ingenieria_Datos_Spark/tabla_con_spark.ipynb)**: Lógica de ingesta con esquemas definidos (`StructType`) y optimización de almacenamiento mediante `partitionBy("Year")`.
 
 ### 📂 [Modelado de Tablas y ETL con SQL]
 Aquí encontrarás los scripts fundamentales para la creación de un Data Warehouse con arquitectura de medalla:
 
-* **[Estructura_ETL_Ventas.sql](./Modelado_Tablas_SQL/Estructura_ETL_Ventas.sql)**
+* **[Estructura_ETL_Ventas.sql](./Modelado_Tablas_SQL/Sales_ETL_Structure.sql)**
     * Implementación de un **Esquema de Estrella** (Fact & Dimensions).
     * Lógica de carga **SCD Tipo 1**: Ideal para mantener datos maestros actualizados mediante la técnica de "ignorar duplicados" (`NOT EXISTS`).
     * Definición de restricciones (Constraints) optimizadas para el motor de Fabric.
