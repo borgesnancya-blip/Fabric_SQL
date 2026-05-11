@@ -1,6 +1,6 @@
 # 🚀 Fabric SQL Library - DP-600 Journey
 
-¡Bienvenida/o a mi repositorio de aprendizaje y práctica para la certificación **DP-600: Microsoft Fabric Analytics Engineer**!
+¡Este es mi repositorio de aprendizaje y práctica para la certificación **DP-600: Microsoft Fabric Analytics Engineer**!
 
 Este espacio está dedicado a documentar mi progreso y a servir como biblioteca de scripts de **T-SQL** y **PySpark** optimizados para arquitecturas de datos modernas en **Microsoft Fabric**.
 
